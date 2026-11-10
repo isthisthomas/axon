@@ -1012,8 +1012,8 @@
 // CONFIGURATION: URL of the JSON feed updated by the server script every 30s
 // Keep as './axon_feed.json' if index.html and axon_feed.json are in the same repo
 // ============================================================================
-const FEED_URL = "./axon_feed.json";
-const REFRESH_SECONDS = 30;
+  const FEED_URL = "https://raw.githubusercontent.com/isthisthomas/axon/main/axon_feed.json";
+  const REFRESH_SECONDS = 30;
 
 let countdown = REFRESH_SECONDS;
 let APP_STATE = {
