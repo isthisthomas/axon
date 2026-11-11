@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T05:23:01.631050+00:00",
+  "updatedAt": "2026-11-11T05:23:48.095506+00:00",
   "startingBalance": 1000.0,
   "balance": 1002.28,
   "freeCash": 1002.28,
@@ -18,7 +18,7 @@
       "signalPrice": 0.02482,
       "limitPrice": 0.024075399999999997,
       "currentPrice": 0.0245,
-      "remHours": 4.87
+      "remHours": 4.85
     },
     {
       "symbol": "HYPERUSDT",
@@ -28,7 +28,7 @@
       "signalPrice": 0.0479,
       "limitPrice": 0.046463,
       "currentPrice": 0.0474,
-      "remHours": 3.62
+      "remHours": 3.6
     },
     {
       "symbol": "CYBERUSDT",
@@ -38,7 +38,27 @@
       "signalPrice": 0.273,
       "limitPrice": 0.26481,
       "currentPrice": 0.271,
-      "remHours": 9.62
+      "remHours": 9.6
+    },
+    {
+      "symbol": "AMPUSDT",
+      "method": "chladni",
+      "lens": "balanced",
+      "frame": "15m",
+      "signalPrice": 0.000627,
+      "limitPrice": 0.00060819,
+      "currentPrice": 0.000624,
+      "remHours": 11.35
+    },
+    {
+      "symbol": "AVAUSDT",
+      "method": "rays",
+      "lens": "balanced",
+      "frame": "15m",
+      "signalPrice": 0.2478,
+      "limitPrice": 0.240366,
+      "currentPrice": 0.2469,
+      "remHours": 8.1
     },
     {
       "symbol": "PORTALUSDT",
@@ -48,27 +68,7 @@
       "signalPrice": 0.01242,
       "limitPrice": 0.0120474,
       "currentPrice": 0.01238,
-      "remHours": 10.37
-    },
-    {
-      "symbol": "AVAUSDT",
-      "method": "rays",
-      "lens": "balanced",
-      "frame": "15m",
-      "signalPrice": 0.2478,
-      "limitPrice": 0.240366,
-      "currentPrice": 0.2472,
-      "remHours": 8.12
-    },
-    {
-      "symbol": "AMPUSDT",
-      "method": "chladni",
-      "lens": "balanced",
-      "frame": "15m",
-      "signalPrice": 0.000627,
-      "limitPrice": 0.00060819,
-      "currentPrice": 0.000626,
-      "remHours": 11.37
+      "remHours": 10.35
     },
     {
       "symbol": "NILUSDT",
@@ -77,8 +77,8 @@
       "frame": "15m",
       "signalPrice": 0.05669,
       "limitPrice": 0.0549893,
-      "currentPrice": 0.05731,
-      "remHours": 9.12
+      "currentPrice": 0.0573,
+      "remHours": 9.1
     },
     {
       "symbol": "ALICEUSDT",
@@ -88,7 +88,7 @@
       "signalPrice": 0.1181,
       "limitPrice": 0.11455699999999999,
       "currentPrice": 0.1197,
-      "remHours": 0.62
+      "remHours": 0.6
     },
     {
       "symbol": "STXUSDT",
@@ -97,8 +97,8 @@
       "frame": "15m",
       "signalPrice": 0.3107,
       "limitPrice": 0.30137899999999995,
-      "currentPrice": 0.3173,
-      "remHours": 3.12
+      "currentPrice": 0.3168,
+      "remHours": 3.1
     },
     {
       "symbol": "IOUSDT",
@@ -108,7 +108,7 @@
       "signalPrice": 0.1143,
       "limitPrice": 0.110871,
       "currentPrice": 0.1169,
-      "remHours": 2.62
+      "remHours": 2.6
     },
     {
       "symbol": "APTUSDT",
@@ -118,7 +118,7 @@
       "signalPrice": 0.56,
       "limitPrice": 0.5432,
       "currentPrice": 0.573,
-      "remHours": 2.62
+      "remHours": 2.6
     },
     {
       "symbol": "COOKIEUSDT",
@@ -128,7 +128,7 @@
       "signalPrice": 0.00841,
       "limitPrice": 0.0081577,
       "currentPrice": 0.00861,
-      "remHours": 1.87
+      "remHours": 1.85
     },
     {
       "symbol": "ARKMUSDT",
@@ -137,8 +137,8 @@
       "frame": "15m",
       "signalPrice": 0.0968,
       "limitPrice": 0.093896,
-      "currentPrice": 0.0993,
-      "remHours": 0.62
+      "currentPrice": 0.0994,
+      "remHours": 0.6
     },
     {
       "symbol": "ARUSDT",
@@ -147,8 +147,8 @@
       "frame": "15m",
       "signalPrice": 3.173,
       "limitPrice": 3.07781,
-      "currentPrice": 3.288,
-      "remHours": 0.37
+      "currentPrice": 3.29,
+      "remHours": 0.35
     },
     {
       "symbol": "ZROUSDT",
@@ -157,8 +157,8 @@
       "frame": "15m",
       "signalPrice": 1.487,
       "limitPrice": 1.44239,
-      "currentPrice": 1.57,
-      "remHours": 2.87
+      "currentPrice": 1.568,
+      "remHours": 2.85
     }
   ],
   "closed": [
@@ -381,13 +381,13 @@
   ],
   "logs": [
     {
-      "time": "05:23:01",
+      "time": "05:23:48",
       "icon": "✓",
       "type": "info",
       "text": "axon engine sweep complete — 0 active, 15 pending"
     },
     {
-      "time": "05:23:01",
+      "time": "05:23:48",
       "icon": "⏳",
       "type": "warn",
       "sym": "CTSIUSDT",
@@ -396,7 +396,7 @@
       "note": "limit $0.0240754"
     },
     {
-      "time": "05:23:01",
+      "time": "05:23:48",
       "icon": "⏳",
       "type": "warn",
       "sym": "HYPERUSDT",
@@ -405,7 +405,7 @@
       "note": "limit $0.046463"
     },
     {
-      "time": "05:23:01",
+      "time": "05:23:48",
       "icon": "⏳",
       "type": "warn",
       "sym": "CYBERUSDT",
@@ -414,13 +414,13 @@
       "note": "limit $0.26481"
     },
     {
-      "time": "05:23:01",
+      "time": "05:23:48",
       "icon": "⏳",
       "type": "warn",
-      "sym": "PORTALUSDT",
-      "price": "$0.01238",
-      "change": "+2.76%",
-      "note": "limit $0.0120474"
+      "sym": "AMPUSDT",
+      "price": "$0.000624",
+      "change": "+2.60%",
+      "note": "limit $0.00060819"
     }
   ]
 }
